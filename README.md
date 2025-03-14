@@ -23,7 +23,7 @@ This script is designed to run on a **Linux** environment with **Python 3** inst
 Open a terminal, navigate to the directory where the `N50_Analyse.py` file is located, and make it executable with the following command:  
 
 ```bash
-chmod +x n50_Analyse.py
+chmod +x n50_analyse.py
 ```
 
 #### **2. Run the Script**  
@@ -40,12 +40,12 @@ To execute the script, provide the path to the directory containing the FASTA fi
 ```
 bash
 
-python n50_Analyse.py /path/to/fasta/files
+python n50_analyse.py /path/to/fasta/files
 ```
 Or, if using Python 3:  
 ```
 bash
-python3 N50_Analyse.py /path/to/fasta/files
+python3 n50_analyse.py /path/to/fasta/files
 ```
 
 #### **3. Execution**  

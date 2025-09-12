@@ -1,8 +1,8 @@
-# N50_ANALYSER
+# N50_ANALYZER
 
 **Genome Filtering Based on N50**  
 
-This Python script, **n50_analyse.py**, calculates the N50 value of FASTA files containing genomic sequences and filters these files, moving them to a separate directory if the N50 value is greater than or equal to a specified threshold. In this specific code, it filters genomes with **N50 ≥ 20 kb (20000).**  
+This Python script, **n50_analyze.py**, calculates the N50 value of FASTA files containing genomic sequences and filters these files, moving them to a separate directory if the N50 value is greater than or equal to a specified threshold. In this specific code, it filters genomes with **N50 ≥ 20 kb (20000).**  
 
 ### **Description**  
 
@@ -20,10 +20,10 @@ This script is designed to run on a **Linux** environment with **Python 3** inst
 
 #### **1. Make the Script Executable**  
 
-Open a terminal, navigate to the directory where the `N50_Analyse.py` file is located, and make it executable with the following command:  
+Open a terminal, navigate to the directory where the `N50_Analyze.py` file is located, and make it executable with the following command:  
 
 ```bash
-chmod +x n50_analyse.py
+chmod +x n50_analyze.py
 ```
 
 #### **2. Run the Script**  
@@ -40,12 +40,12 @@ To execute the script, provide the path to the directory containing the FASTA fi
 ```
 bash
 
-python n50_analyse.py /path/to/fasta/files
+python n50_analyze.py /path/to/fasta/files
 ```
 Or, if using Python 3:  
 ```
 bash
-python3 n50_analyse.py /path/to/fasta/files
+python3 n50_analyze.py /path/to/fasta/files
 ```
 
 #### **3. Execution**  

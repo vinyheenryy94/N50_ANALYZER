@@ -1,4 +1,4 @@
-# N50_ANALYZER
+# N50_ANALYZER - https://doi.org/10.5281/zenodo.17107547
 
 **Genome Filtering Based on N50**  
 
